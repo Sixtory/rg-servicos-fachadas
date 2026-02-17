@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Empresa de limpeza de fachadas e limpeza de vidros em todo o Brasil. Há mais de 10 anos atuando com acesso por corda, hidrojateamento e manutenção predial externa. Atendemos todas as capitais e regiões. Solicite seu orçamento.">
+  <meta name="author" content="RG Serviços em Fachadas">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#0F4C81">
+  <meta name="theme-color" content="#0b1220" media="(prefers-color-scheme: dark)">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='4' fill='%230a3050'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='central' text-anchor='middle' font-family='Inter,sans-serif' font-weight='800' font-size='14' fill='%23fff'%3ERG%3C/text%3E%3C/svg%3E">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="RG Serviços em Fachadas — Limpeza de Fachadas e Vidros em Todo o Brasil">
+  <meta property="og:description" content="Empresa especializada em limpeza de fachadas, limpeza de vidros em altura e manutenção predial externa. Mais de 10 anos de experiência com atuação em todo o Brasil.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <!-- TODO: Adicionar og:image e og:url com URLs absolutas do domínio de produção -->
+  <!-- <meta property="og:image" content="https://SEU-DOMINIO.com.br/assets/images/imagem-header.png"> -->
+  <!-- <meta property="og:url" content="https://SEU-DOMINIO.com.br/"> -->
+
+  <title>RG Serviços em Fachadas | Limpeza de Fachadas e Vidros em Todo o Brasil</title>
+
+  <!-- Preconnect & DNS Prefetch -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Skip link (acessibilidade) -->
+  <a href="#main" class="sr-only sr-only--focusable">Pular para o conteúdo principal</a>
+
+  <!-- =============================================
+       HEADER
+       ============================================= -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+
+      <a href="#inicio" class="header__logo">
+        <span class="logo-badge">RG</span> Serviços em Fachadas
+      </a>
+
+      <button class="header__toggle" id="menuToggle" aria-label="Menu de navegação" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="header__nav" id="mainNav" aria-label="Navegação principal">
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#galeria">Galeria</a></li>
+          <li><a href="#diferenciais">Diferenciais</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+
+      <button class="theme-toggle" id="themeToggle" aria-label="Alternar modo claro/escuro">
+        <i class="bi bi-brightness-high theme-toggle__icon--sun" aria-hidden="true"></i>
+        <i class="bi bi-moon theme-toggle__icon--moon" aria-hidden="true"></i>
+      </button>
+
+    </div>
+  </header>
+
+  <main id="main">
+
+  <!-- =============================================
+       HERO
+       ============================================= -->
+  <section class="hero" id="inicio">
+    <div class="hero__fade" aria-hidden="true"></div>
+    <div class="container hero__content">
+      <div class="hero__text">
+        <h1 class="hero__title">Limpeza de Fachadas e Vidros em Todo o Brasil</h1>
+        <p class="hero__subtitle">
+          Há mais de 10 anos, a RG Serviços em Fachadas é referência em limpeza predial, 
+          limpeza de vidros em altura e manutenção predial externa com segurança e qualidade comprovada.
+        </p>
+        <a href="https://wa.me/5511991234081?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20de%20limpeza." class="btn btn--whatsapp" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-whatsapp" aria-hidden="true"></i>
+          Solicite um Orçamento
+        </a>
+
+        <div class="hero__contacts">
+          <a href="tel:+5511991234081" class="hero__contact-link">
+            <i class="bi bi-telephone" aria-hidden="true"></i>
+            (11) 99123-4081
+          </a>
+          <span class="hero__contact-divider">|</span>
+          <a href="mailto:geozdelima@gmail.com" class="hero__contact-link">
+            <i class="bi bi-envelope" aria-hidden="true"></i>
+            geozdelima@gmail.com
+          </a>
+        </div>
+      </div>
+      <div class="hero__image">
+        <img src="assets/images/imagem-header.png" alt="Profissional da RG Serviços em Fachadas realizando limpeza de fachada predial com acesso por corda" width="760" height="568" fetchpriority="high">
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================================
+       SOBRE (About)
+       ============================================= -->
+  <section class="section" id="sobre">
+    <div class="container">
+      <h2 class="section__title">Sobre a RG Serviços em Fachadas</h2>
+
+      <div class="about__grid">
+        <!-- Texto descritivo -->
+        <div class="about__text">
+          <p>
+            Com <strong>mais de 10 anos de atuação em todo o território nacional</strong>, 
+            a <strong>RG Serviços em Fachadas</strong> é uma empresa especializada em 
+            <strong>limpeza de fachadas</strong>, <strong>limpeza de vidros</strong> e 
+            <strong>manutenção predial externa</strong>. Nossa equipe trabalha com foco em 
+            segurança, qualidade e atendimento personalizado em cada projeto.
+          </p>
+          <p>
+            Utilizamos técnicas profissionais de <strong>acesso por corda</strong> e 
+            <strong>trabalho em altura</strong>, com equipamentos de proteção individual (EPIs) 
+            em total conformidade com as normas regulamentadoras vigentes. Isso garante a 
+            integridade dos nossos profissionais e a tranquilidade dos nossos clientes.
+          </p>
+          <p>
+            Atendemos síndicos, administradoras, empresas e proprietários de imóveis 
+            comerciais e residenciais, entregando resultados consistentes com 
+            responsabilidade e comprometimento.
+          </p>
+        </div>
+
+        <!-- Highlight cards -->
+        <div class="about__highlights">
+          <div class="highlight-card">
+            <div class="highlight-card__icon">
+              <i class="bi bi-shield" aria-hidden="true"></i>
+            </div>
+            <div>
+              <h3 class="highlight-card__title">Segurança</h3>
+              <p class="highlight-card__text">Cumprimento rigoroso das normas de segurança, com EPIs certificados e procedimentos de trabalho em altura.</p>
+            </div>
+          </div>
+
+          <div class="highlight-card">
+            <div class="highlight-card__icon">
+              <i class="bi bi-file-earmark-text" aria-hidden="true"></i>
+            </div>
+            <div>
+              <h3 class="highlight-card__title">Experiência</h3>
+              <p class="highlight-card__text">Mais de uma década de experiência em limpeza predial e manutenção de fachadas em todo o Brasil.</p>
+            </div>
+          </div>
+
+          <div class="highlight-card">
+            <div class="highlight-card__icon">
+              <i class="bi bi-check-circle" aria-hidden="true"></i>
+            </div>
+            <div>
+              <h3 class="highlight-card__title">Qualidade</h3>
+              <p class="highlight-card__text">Resultados visíveis desde o primeiro serviço, com técnicas e produtos profissionais.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================================
+       SERVIÇOS (Services)
+       ============================================= -->
+  <section class="section section--alt" id="servicos">
+    <div class="container">
+      <h2 class="section__title">Nossos Serviços</h2>
+      <p class="section__subtitle">
+        Soluções completas em limpeza de fachadas, limpeza de vidros e manutenção predial externa em todo o Brasil
+      </p>
+
+      <div class="services__grid">
+        <article class="service-card">
+          <div class="service-card__icon">
+            <i class="bi bi-grid-3x3" aria-hidden="true"></i>
+          </div>
+          <h3 class="service-card__title">Limpeza de Peles de Vidro e Remoção de Manchas</h3>
+          <p class="service-card__text">
+            Realizamos a limpeza de vidros em altura e a remoção de manchas causadas por chuva ácida, 
+            poluição e resíduos minerais. Utilizamos produtos específicos e técnicas de acesso por corda 
+            para devolver a transparência original às fachadas envidraçadas.
+          </p>
+        </article>
+
+        <article class="service-card">
+          <div class="service-card__icon">
+            <i class="bi bi-droplet-half" aria-hidden="true"></i>
+          </div>
+          <h3 class="service-card__title">Hidrojateamento de Fachadas</h3>
+          <p class="service-card__text">
+            Serviço de limpeza de fachada predial com hidrojateamento de alta pressão, 
+            indicado para remoção de sujeira incrustada, fungos, limo e poluição acumulada. 
+            Atuamos em todos os tipos de revestimento com segurança e eficiência.
+          </p>
+        </article>
+
+        <article class="service-card">
+          <div class="service-card__icon">
+            <i class="bi bi-shield-check" aria-hidden="true"></i>
+          </div>
+          <h3 class="service-card__title">Vedação de Peles de Vidro e Painéis</h3>
+          <p class="service-card__text">
+            Executamos a vedação de peles de vidro, painéis arquitetônicos e juntas de dilatação, 
+            garantindo estanqueidade e proteção contra infiltrações. Serviço realizado com 
+            técnicas de trabalho em altura e materiais de alta durabilidade.
+          </p>
+        </article>
+
+        <article class="service-card">
+          <div class="service-card__icon">
+            <i class="bi bi-columns-gap" aria-hidden="true"></i>
+          </div>
+          <h3 class="service-card__title">Limpeza de ACM</h3>
+          <p class="service-card__text">
+            Limpeza especializada de revestimentos em ACM (Alumínio Composto), preservando 
+            o acabamento e prolongando a vida útil dos painéis da sua fachada. Utilizamos 
+            produtos adequados para cada tipo de superfície, evitando danos ao material.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================================
+       GALERIA (Portfolio)
+       ============================================= -->
+  <section class="section" id="galeria">
+    <div class="container">
+      <h2 class="section__title">Nosso Trabalho</h2>
+      <p class="section__subtitle">
+        Confira registros reais dos nossos serviços de limpeza de fachadas e vidros realizados em diversas regiões do Brasil
+      </p>
+
+      <div class="gallery__grid">
+        <!-- Foto 1: Profissional em fachada de prédio -->
+        <figure class="gallery__item" data-lightbox>
+          <img
+            src="assets/images/trabalho-fachada-01.jpeg"
+            alt="Profissional da RG Serviços em Fachadas realizando limpeza de fachada predial com acesso por corda"
+            loading="lazy"
+            decoding="async"
+            width="600"
+            height="800"
+          >
+          <figcaption class="gallery__caption">Limpeza de fachada predial com acesso por corda</figcaption>
+        </figure>
+
+        <!-- Foto 2: Limpeza de vidros em altura -->
+        <figure class="gallery__item" data-lightbox>
+          <img
+            src="assets/images/trabalho-vidros-01.jpeg"
+            alt="Limpeza de vidros em altura com técnica de acesso por corda e equipamentos de segurança"
+            loading="lazy"
+            decoding="async"
+            width="600"
+            height="800"
+          >
+          <figcaption class="gallery__caption">Limpeza de vidros em altura</figcaption>
+        </figure>
+
+        <!-- Foto 3: Fachada antes e depois -->
+        <figure class="gallery__item gallery__item--compare" data-lightbox>
+          <img
+            src="assets/images/trabalho-fachada-02.jpeg"
+            alt="Antes e depois de limpeza de fachada de vidro — resultado da RG Serviços em Fachadas"
+            loading="lazy"
+            decoding="async"
+            width="600"
+            height="800"
+          >
+          <span class="gallery__badge gallery__badge--before">Antes</span>
+          <span class="gallery__badge gallery__badge--after">Depois</span>
+          <figcaption class="gallery__caption">Antes e depois: limpeza de fachada de vidro</figcaption>
+        </figure>
+
+        <!-- Foto 4: Profissional em trabalho em altura -->
+        <figure class="gallery__item" data-lightbox>
+          <img
+            src="assets/images/trabalho-altura-01.jpeg"
+            alt="Trabalho em altura para manutenção predial externa com EPIs e normas de segurança"
+            loading="lazy"
+            decoding="async"
+            width="600"
+            height="800"
+          >
+          <figcaption class="gallery__caption">Trabalho em altura com EPIs e segurança</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================================
+       DIFERENCIAIS (Features)
+       ============================================= -->
+  <section class="section section--alt" id="diferenciais">
+    <div class="container">
+      <h2 class="section__title">Por Que Escolher a RG Serviços em Fachadas?</h2>
+
+      <div class="features__grid">
+        <div class="feature-card">
+          <div class="feature-card__number">01</div>
+          <h3 class="feature-card__title">Equipe Qualificada e Treinada</h3>
+          <p class="feature-card__text">
+            Nossos profissionais passam por treinamento contínuo em trabalho em altura, 
+            acesso por corda e técnicas avançadas de limpeza predial, garantindo 
+            eficiência e segurança em cada operação.
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-card__number">02</div>
+          <h3 class="feature-card__title">Compromisso com a Segurança</h3>
+          <p class="feature-card__text">
+            Seguimos rigorosamente as normas regulamentadoras de segurança do trabalho. 
+            Utilizamos EPIs certificados e realizamos análise de risco antes de 
+            cada projeto, protegendo nossa equipe e o seu patrimônio.
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-card__number">03</div>
+          <h3 class="feature-card__title">Atendimento Personalizado</h3>
+          <p class="feature-card__text">
+            Cada imóvel tem suas particularidades. Realizamos visita técnica, 
+            avaliamos as necessidades do local e apresentamos a solução mais 
+            adequada para a limpeza da sua fachada ou vidros.
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-card__number">04</div>
+          <h3 class="feature-card__title">Atuação em Todo o Brasil</h3>
+          <p class="feature-card__text">
+            Atendemos todas as capitais e regiões do Brasil com agilidade e pontualidade. 
+            Nossa empresa de limpeza de fachadas está pronta para iniciar o serviço 
+            no prazo combinado, em qualquer estado.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================================
+       CONTATO (Contact)
+       ============================================= -->
+  <section class="section" id="contato">
+    <div class="container">
+      <h2 class="section__title">Solicite Seu Orçamento</h2>
+      <p class="section__subtitle">
+        Preencha o formulário abaixo e receba seu orçamento sem compromisso. Responderemos em até 24h.
+      </p>
+
+      <!-- Formulário de Orçamento -->
+      <form class="quote-form" id="quoteForm" novalidate>
+        <div class="quote-form__header">
+          <div class="quote-form__icon">
+            <i class="bi bi-file-earmark-text" aria-hidden="true"></i>
+          </div>
+          <h3 class="quote-form__title">Faça Aqui Seu Orçamento</h3>
+          <p class="quote-form__desc">Campos com * são obrigatórios</p>
+        </div>
+
+        <div class="quote-form__grid">
+
+          <!-- Nome * -->
+          <div class="quote-form__group quote-form__group--full">
+            <label class="quote-form__label" for="qf-nome">Nome *</label>
+            <input class="quote-form__input" type="text" id="qf-nome" name="nome" placeholder="Seu nome completo" required autocomplete="name" aria-describedby="qf-nome-error">
+            <span class="quote-form__error" id="qf-nome-error" role="alert">Por favor, informe seu nome.</span>
+          </div>
+
+          <!-- E-mail -->
+          <div class="quote-form__group">
+            <label class="quote-form__label" for="qf-email">Seu e-mail <span>(opcional)</span></label>
+            <input class="quote-form__input" type="email" id="qf-email" name="email" placeholder="exemplo@email.com" autocomplete="email" aria-describedby="qf-email-error">
+            <span class="quote-form__error" id="qf-email-error" role="alert">Por favor, informe um e-mail válido.</span>
+          </div>
+
+          <!-- Telefone -->
+          <div class="quote-form__group">
+            <label class="quote-form__label" for="qf-telefone">Seu telefone <span>(opcional)</span></label>
+            <input class="quote-form__input" type="tel" id="qf-telefone" name="telefone" placeholder="(11) 3456-7890" data-mask="phone" autocomplete="tel">
+          </div>
+
+          <!-- Celular * -->
+          <div class="quote-form__group">
+            <label class="quote-form__label" for="qf-celular">Celular *</label>
+            <input class="quote-form__input" type="tel" id="qf-celular" name="celular" placeholder="(11) 99123-4081" data-mask="phone" autocomplete="tel" required aria-describedby="qf-celular-error">
+            <span class="quote-form__error" id="qf-celular-error" role="alert">Por favor, informe seu celular.</span>
+          </div>
+
+          <!-- Serviço * -->
+          <div class="quote-form__group">
+            <label class="quote-form__label" for="qf-servico">Serviço desejado *</label>
+            <select class="quote-form__select" id="qf-servico" name="servico" required aria-describedby="qf-servico-error">
+              <option value="" disabled selected>Selecione um serviço</option>
+              <option value="Limpeza de Peles de Vidro">Limpeza de Peles de Vidro</option>
+              <option value="Remoção de Manchas e Chuva Ácida">Remoção de Manchas e Chuva Ácida</option>
+              <option value="Hidrojateamento de Fachadas">Hidrojateamento de Fachadas</option>
+              <option value="Vedação de Peles de Vidro e Painéis">Vedação de Peles de Vidro e Painéis</option>
+              <option value="Limpeza de ACM">Limpeza de ACM</option>
+              <option value="Outro serviço">Outro serviço</option>
+            </select>
+            <span class="quote-form__error" id="qf-servico-error" role="alert">Por favor, selecione um serviço.</span>
+          </div>
+
+          <!-- Como nos conheceu -->
+          <div class="quote-form__group quote-form__group--full">
+            <label class="quote-form__label" for="qf-origem">Como nos conheceu? <span>(opcional)</span></label>
+            <select class="quote-form__select" id="qf-origem" name="origem">
+              <option value="" disabled selected>Selecione uma opção</option>
+              <option value="Google / Pesquisa">Google / Pesquisa</option>
+              <option value="Indicação">Indicação</option>
+              <option value="Redes Sociais">Redes Sociais</option>
+              <option value="Já sou cliente">Já sou cliente</option>
+              <option value="Outro">Outro</option>
+            </select>
+          </div>
+
+          <!-- Mensagem * -->
+          <div class="quote-form__group quote-form__group--full">
+            <label class="quote-form__label" for="qf-mensagem">Sua mensagem *</label>
+            <textarea class="quote-form__textarea" id="qf-mensagem" name="mensagem" placeholder="Descreva detalhes do serviço, localização do imóvel, quantidade de andares, etc." rows="5" required aria-describedby="qf-mensagem-error"></textarea>
+            <span class="quote-form__error" id="qf-mensagem-error" role="alert">Por favor, descreva o serviço desejado.</span>
+          </div>
+
+          <!-- Botão -->
+          <div class="quote-form__group quote-form__group--full quote-form__group--submit">
+            <button type="submit" class="quote-form__submit">
+              <i class="bi bi-whatsapp" aria-hidden="true"></i>
+              <span class="quote-form__submit-text">Enviar pelo WhatsApp</span>
+            </button>
+            <p class="quote-form__note">
+              Ao enviar, uma conversa será aberta no WhatsApp com os dados preenchidos.
+            </p>
+          </div>
+
+        </div>
+
+        <!-- Feedback de sucesso (substitui o formulário) -->
+        <div class="quote-form__success" style="display:none;" role="status" aria-live="polite">
+          <div class="quote-form__success-icon">
+            <i class="bi bi-check-circle" aria-hidden="true"></i>
+          </div>
+          <h3 class="quote-form__success-title">Quase lá!</h3>
+          <p class="quote-form__success-text">
+            Uma conversa foi aberta no WhatsApp com seus dados. Basta enviar a mensagem para concluir!
+          </p>
+          <button type="button" class="quote-form__success-btn" data-action="reset-form">
+            Enviar nova solicitação
+          </button>
+        </div>
+      </form>
+
+      <!-- Cards de contato -->
+      <div class="contact__grid">
+        <div class="contact-card">
+          <div class="contact-card__icon">
+            <i class="bi bi-telephone" aria-hidden="true"></i>
+          </div>
+          <h3 class="contact-card__title">Telefone / WhatsApp</h3>
+          <p class="contact-card__text">
+            <a href="https://wa.me/5511991234081" target="_blank" rel="noopener noreferrer">(11) 99123-4081</a>
+          </p>
+        </div>
+
+        <div class="contact-card">
+          <div class="contact-card__icon">
+            <i class="bi bi-envelope" aria-hidden="true"></i>
+          </div>
+          <h3 class="contact-card__title">E-mail</h3>
+          <p class="contact-card__text">
+            <a href="mailto:geozdelima@gmail.com">geozdelima@gmail.com</a>
+          </p>
+        </div>
+
+        <div class="contact-card">
+          <div class="contact-card__icon">
+            <i class="bi bi-geo-alt" aria-hidden="true"></i>
+          </div>
+          <h3 class="contact-card__title">Área de Atendimento</h3>
+          <p class="contact-card__text">Todo o Brasil — capitais e interior</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  </main>
+
+  <!-- Lightbox (modal de imagem ampliada — fora do <main> para melhor compatibilidade AT) -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Imagem ampliada" hidden>
+    <button class="lightbox__close" aria-label="Fechar imagem">
+      <i class="bi bi-x-lg" aria-hidden="true"></i>
+    </button>
+    <button class="lightbox__nav lightbox__nav--prev" aria-label="Imagem anterior">
+      <i class="bi bi-chevron-left" aria-hidden="true"></i>
+    </button>
+    <button class="lightbox__nav lightbox__nav--next" aria-label="Próxima imagem">
+      <i class="bi bi-chevron-right" aria-hidden="true"></i>
+    </button>
+    <img class="lightbox__img" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="">
+    <p class="lightbox__caption"></p>
+    <p class="lightbox__counter sr-only" aria-live="polite" aria-atomic="true"></p>
+  </div>
+
+  <!-- =============================================
+       FOOTER
+       ============================================= -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="footer__logo">
+          <span class="logo-badge logo-badge--inverted">RG</span> Serviços em Fachadas
+        </span>
+      </div>
+      <div class="footer__copy">
+        <p>&copy; <span data-year>2026</span> RG Serviços em Fachadas. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =============================================
+       WHATSAPP FLOAT
+       ============================================= -->
+  <a href="https://wa.me/5511991234081?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20de%20limpeza."
+     class="whatsapp-float"
+     target="_blank"
+     rel="noopener noreferrer"
+     aria-label="Enviar mensagem pelo WhatsApp">
+    <i class="bi bi-whatsapp" aria-hidden="true"></i>
+  </a>
+
+  <!-- JS -->
+  <script src="script.js" defer></script>
+</body>
+</html>
