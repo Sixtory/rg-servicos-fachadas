@@ -19,6 +19,8 @@
   <!-- TODO: Adicionar og:image e og:url com URLs absolutas do domínio de produção -->
   <!-- <meta property="og:image" content="https://SEU-DOMINIO.com.br/assets/images/imagem-header.png"> -->
   <!-- <meta property="og:url" content="https://SEU-DOMINIO.com.br/"> -->
+  <!-- TODO: Descomentar e atualizar canonical com o domínio de produção -->
+  <!-- <link rel="canonical" href="https://SEU-DOMINIO.com.br/"> -->
 
   <title>RG Serviços em Fachadas | Limpeza de Fachadas e Vidros em Todo o Brasil</title>
 
@@ -548,5 +550,43 @@
 
   <!-- JS -->
   <script src="script.js" defer></script>
+
+  <!-- SEO: Dados estruturados (JSON-LD) para Google -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "RG Serviços em Fachadas",
+    "description": "Empresa especializada em limpeza de fachadas, limpeza de vidros em altura e manutenção predial externa. Mais de 10 anos de experiência com atuação em todo o Brasil.",
+    "telephone": "+55-11-99123-4081",
+    "email": "geozdelima@gmail.com",
+    "areaServed": {
+      "@type": "Country",
+      "name": "Brasil"
+    },
+    "serviceType": [
+      "Limpeza de Fachadas",
+      "Limpeza de Vidros em Altura",
+      "Hidrojateamento de Fachadas",
+      "Vedação de Peles de Vidro",
+      "Limpeza de ACM",
+      "Manutenção Predial Externa"
+    ],
+    "priceRange": "$$",
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "opens": "08:00",
+      "closes": "18:00"
+    },
+    "sameAs": [],
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+55-11-99123-4081",
+      "contactType": "customer service",
+      "availableLanguage": "Portuguese"
+    }
+  }
+  </script>
 </body>
 </html>
