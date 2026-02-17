@@ -1,7 +1,6 @@
 # robots.txt — RG Serviços em Fachadas
-# TODO: Substituir "SEU-DOMINIO.com.br" pelo domínio real de produção.
 
 User-agent: *
 Allow: /
 
-Sitemap: https://SEU-DOMINIO.com.br/sitemap.xml
+Sitemap: https://rgservicosemfachadas.com.br/sitemap.xml
